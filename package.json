@@ -1,0 +1,23 @@
+{
+  "name": "mitech",
+  "version": "1.0.0",
+  "description": "Model View Controller Based Tech Blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamCampeau/miTech.git"
+  },
+  "keywords": [
+    "mvc"
+  ],
+  "author": "Adam Campeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamCampeau/miTech/issues"
+  },
+  "homepage": "https://github.com/AdamCampeau/miTech#readme"
+}
