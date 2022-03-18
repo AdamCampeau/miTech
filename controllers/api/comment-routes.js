@@ -54,15 +54,18 @@ router.put('/:id', withAuth, (req, res) => {
 
 router.delete('/:id', withAuth, (req, res) => {
     Comment.destroy({
+        
         where: {
             id: req.params.id
         }
     })
     .then(dbCommentData => {
+        
         if (!dbCommentData) {
             res.status(404).json({ message: 'Page Not Found' })
             return;
         }
+       
         res.json(dbCommentData);
     })
     .catch(err => {
