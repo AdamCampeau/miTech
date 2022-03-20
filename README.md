@@ -1,4 +1,5 @@
 # miTech
+Model-View-Controller (MVC) Challenge: Tech Blog
 
 ## Table of Contents
 --------------------------------------
@@ -24,19 +25,25 @@
 --------------------------------------
 
 ## Description
-Model-View-Controller (MVC): Tech Blog
+A CMS-style blog site
+I can publish articles, blog posts, and my thoughts and opinions
 
 ## License
 No license
 
 ## Installation
-None
+#### express-sessions 
+#### express-handlebars 
+#### MySQL 
+#### Sequelize 
+#### dotenv 
+#### connect-session-sequelize
 
 ## Demo
 None
 
 ## Testing
-None
+nodemon
 
 ## Future_Development
 None
@@ -55,3 +62,5 @@ None
 
 ## Deployed Page
 https://adamcampeau.github.io/miTech/
+
+## Heroku
